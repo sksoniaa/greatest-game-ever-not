@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+  min-width: 100vh;
+}
+
+.header{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 20px;
+}
+.board{
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  height: 400px;
+  gap: 50px;
+  transform-style: preserve-3d;
+  perspective: 500px;
+  margin: 50px auto;
+}
+
+.card-block{
+  width: 100px;
+  height: 100px;
+  font-size: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(248, 182, 216);
+  transition: .3s ease-in-out;
+}
