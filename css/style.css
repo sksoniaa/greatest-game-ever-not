@@ -7,7 +7,7 @@ body{
   margin: 0;
   min-height: 100vh;
   min-width: 100vh;
-  background-image: url(/62764136-flat-pink-fantasy-candy-game-background-illustration.jpg);
+  background-image: url(../background.jpg);
   backdrop-filter: brightness(70%) blur(10px);
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
@@ -69,6 +69,11 @@ body{
   transform: rotateY(180deg);
 }
 
+.card-block.disabled{
+  pointer-events: none;
+}
+
+
 .card-block.cardFront{
   transform: rotateY(0deg);
 }
@@ -85,6 +90,8 @@ body{
   transform: rotateY(0deg);
   backface-visibility: hidden;
 }
+
+
 
 .cardFront::after{
   transform: rotateY(180deg);
