@@ -8,16 +8,37 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <div class="container">
   <div class="header">
     <p class="timer-display">Timer</p>
     <h1 class="game-name">Memory Match</h1>
     <p class="score">Score: </p>
   </div>
-
     <div class="board background">Welcome to the game!</div>
     <div class="buttons">
       <button class="start-button">Start</button>
       <button class="restart-button" onclick="window.location.reload()">Restart</button>
     </div>
+  </div>
+    <div class="victory-modal">
+      <div class="v-popup">
+        <img class="victory-icon" src="kisspng-computer-icons-check-mark-checkbox-x-icon-5b188fb4d97ca2.6142581015283363088908.png" alt="">
+        <p class="win-p">You won!</p>
+        <button class="play-again-btn">Play again!</button>
+      </div>
+    </div>
+
+    <div class="fail-modal">
+      <div class="f-popup">
+        <img class="fail-icon" src="kisspng-check-mark-sign-cross-clip-art-delete-button-5ac92e83b6e8e1.4440286415231340837492.png" alt="">
+        <p class="lost-p">You lost!</p>
+        <button class="try-again-btn">Play again!</button>
+      </div>
+    </div>
+    <footer>
+      <p>Created by Sofiia Kosachevych</p>
+      <a href="https://www.instagram.com/sksoniaa_/">🌿Instagram🌿</a>
+      <img class="a-img" src="instagram.png" alt="">
+    </footer>
 </body>
 </html>
