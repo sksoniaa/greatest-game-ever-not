@@ -6,3 +6,9 @@ On the top of the page you can see the timer and the number of score. You have 5
 Have fun!
 
 Link => https://sksoniaa.github.io/memory-game-project/
+
+<img src="welcome.png"></img>
+<img src="board.png"></img>
+<img src="game.png"></img>
+<img src="win.png"></img>
+<img src="lost.png"></img>
